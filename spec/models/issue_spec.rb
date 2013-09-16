@@ -1,21 +1,21 @@
 require 'spec_helper'
 
 describe Issue do
-  describe '.categories' do
-    it 'includes Bug' do
-    expect(Issue.categories).to include('Bug')
-    end
+#   describe '.categories' do
+#     it 'includes Bug' do
+#     expect(Issue.categories).to include('Bug')
+#     end
 
-    it 'includes Features Request' do
-      expect(Issue.categories).to include('Feature Request')
-    end
+#     it 'includes Features Request' do
+#       expect(Issue.categories).to include('Feature Request')
+#     end
 
-    it 'includes Customer Service' do
-      expect(Issue.categories).to include('Customer Service')
-    end
+#     it 'includes Customer Service' do
+#       expect(Issue.categories).to include('Customer Service')
+#     end
 
-    it {should belong_to :category} 
-  end
+#     it {should belong_to :category} 
+#   end
 
   describe '.severities' do
     it 'includes Low' do

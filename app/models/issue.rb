@@ -8,13 +8,13 @@ class Issue < ActiveRecord::Base
   validates_presence_of :category
   validates_presence_of :severity
 
-  def self.categories
-    [
-      'Bug',
-      'Feature Request',
-      'Customer Service'
-    ]
-  end
+  # def self.categories
+  #   [
+  #     'Bug',
+  #     'Feature Request',
+  #     'Customer Service'
+  #   ]
+  # end
 
   def self.severities
     [
