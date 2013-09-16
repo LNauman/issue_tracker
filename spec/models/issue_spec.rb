@@ -13,6 +13,8 @@ describe Issue do
     it 'includes Customer Service' do
       expect(Issue.categories).to include('Customer Service')
     end
+
+    it {should belong_to :category} 
   end
 
   describe '.severities' do

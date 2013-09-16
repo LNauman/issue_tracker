@@ -24,8 +24,8 @@
     <%= f.check_box :is_reproducible, checked: true, class: 'reproducible' %>
   </div>
   <div class="field">
-    <%= f.label :category %><br>
-    <%= f.select :category, Issue.categories, include_blank: true %>
+    <%= f.label :category_id %><br>
+    <%= f.collection_select :category_id, Category.all, :id, :name, include_blank: true %>
   </div>
   <div class="field">
     <%= f.label :severity %> <br>

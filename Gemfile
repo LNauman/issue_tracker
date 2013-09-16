@@ -34,6 +34,7 @@ group :development, :test do
   gem 'shoulda'
   gem 'valid_attribute'
   gem 'launchy'
+  gem 'shoulda-matchers'
 end
 
 group :doc do
