@@ -33,6 +33,7 @@ group :development, :test do
   gem 'factory_girl'
   gem 'shoulda'
   gem 'valid_attribute'
+  gem 'launchy'
 end
 
 group :doc do
